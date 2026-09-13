@@ -3,10 +3,7 @@ body {
   color: royalblue;
   text-align: center;
   background-color: bisque;
-  font-family:
-    Comic Sans MS,
-    Comic Sans,
-    cursive;
+  font-family: "PT Serif", Arial, sans-serif;
 }
 
 /* Typography */
@@ -16,16 +13,68 @@ body {
   color: rgb(219, 29, 61);
 }
 /* Images */
+/* possible flower design? maybe change later */
+.flower-container {
+  align-content: center;
+  justify-content: center;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.petal,
+.center {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 14px;
+}
+.center {
+  background-color: yellow;
+  width: 23px;
+  height: 23px;
+  margin-left: 20px;
+}
+.petal {
+  background-color: pink;
+  width: 35px;
+  height: 22px;
+}
+.petal1 {
+  transform: rotate(0deg) translateX(22px);
+}
+.petal2 {
+  transform: rotate(72deg) translateX(22px);
+}
+.petal3 {
+  transform: rotate(144deg) translateX(22px);
+}
+.petal4 {
+  transform: rotate(216deg) translateX(22px);
+}
+.petal5 {
+  transform: rotate(288deg) translateX(22px);
+}
+
+.hero-img {
+  border: 10px solid rgb(129, 129, 129);
+  border-radius: 10px;
+}
 
 /* Hero Section */
 .header-content {
+  display: inline-block;
   padding-bottom: 2px;
   margin-bottom: 20px;
 }
 .header-content h1 {
-  padding-bottom: 6px;
-  border-bottom: 3px solid pink;
-  font-family: Helvetica;
+  border-bottom: 3px solid rgb(248, 92, 118);
+  font-family: "PT Serif", Arial, sans-serif;
+  font-size: 48px;
+  padding: 0px 0px 10px 0px;
+}
+
+.tagline {
+  font-family: "Lato", Arial, sans-serif;
+  font-style: italic;
 }
 /* Main Content */
 
