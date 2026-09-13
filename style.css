@@ -3,17 +3,30 @@ body {
   color: royalblue;
   text-align: center;
   background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family:
+    Comic Sans MS,
+    Comic Sans,
+    cursive;
 }
 
 /* Typography */
 
 /* Links & Accents */
-
+.accent {
+  color: rgb(219, 29, 61);
+}
 /* Images */
 
 /* Hero Section */
-
+.header-content {
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
+.header-content h1 {
+  padding-bottom: 6px;
+  border-bottom: 3px solid pink;
+  font-family: Helvetica;
+}
 /* Main Content */
 
 /* About Section */
