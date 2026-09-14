@@ -79,8 +79,57 @@ body {
 /* Main Content */
 
 /* About Section */
+.about-us {
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Specials Section */
+.specials {
+  border-top: 5px dotted rgb(248, 92, 118);
+
+  margin-top: 50px;
+}
+
+.specials-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  margin: 10px auto;
+  align-items: center;
+  overflow-x: auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+.special-offer {
+  position: relative;
+  min-width: 360px;
+  background-color: white;
+  border: 5px solid rgb(129, 129, 129);
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.special-offer:hover {
+  transform: scale(1.03);
+}
+
+.price-now {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  /* width: 120px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(41, 88, 41);
+  text-align: center;
+  align-items: center;
+  justify-content: center; */
+}
 
 /* Visit Us Section */
 
